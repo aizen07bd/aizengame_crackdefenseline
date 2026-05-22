@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+
+# Source notes and generated planning docs are local-only.
+*.md
+!README.md
+docs/
+
+# Keep editable audio sources local; the game loads mp3 assets.
+*.wav
